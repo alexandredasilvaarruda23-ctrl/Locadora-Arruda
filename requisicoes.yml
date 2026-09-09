@@ -7,15 +7,15 @@ meta:
   modified: 1764769685260
   description: ""
 collection:
-  - url: http://localhost:3000/
-    name: New Request
+  - url: localhost:3000/
+    name: Teste API
     meta:
-      id: req_8df1579201f6485cb53d8f73dc735fa0
-      created: 1788302685113
-      modified: 1788302692547
+      id: req_9a31debb61cc4149ba5411c3328b9dc6
+      created: 1788302256555
+      modified: 1788302395061
       isPrivate: false
       description: ""
-      sortKey: -1788302685113
+      sortKey: -1788302256555
     method: GET
     headers:
       - name: User-Agent
@@ -30,15 +30,38 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://localhost:3000/test
-    name: TESTE CONEXÃO BANCO
+  - url: localhost:3000/test
+    name: Teste conexão banco
     meta:
-      id: req_bfa899ce25274404b64918fb10b72d34
-      created: 1788303423484
-      modified: 1788304973872
+      id: req_2a018d7c32874743becc7fbad9c76e81
+      created: 1788303349206
+      modified: 1788303379110
       isPrivate: false
       description: ""
-      sortKey: -1788302685063
+      sortKey: -1788302256505
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/test/tables
+    name: Teste listar tabelas banco
+    meta:
+      id: req_901586db68dc49d9947bed9916be242a
+      created: 1788908469086
+      modified: 1788908509625
+      isPrivate: false
+      description: ""
+      sortKey: -1788302256455
     method: GET
     headers:
       - name: User-Agent
@@ -57,12 +80,12 @@ cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1788302449597
-    modified: 1788302449597
+    created: 1788908156974
+    modified: 1788908156974
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1788302449594
-    modified: 1788302449594
+    created: 1788908156971
+    modified: 1788908156971
     isPrivate: false

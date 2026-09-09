@@ -1,5 +1,5 @@
 {
-  "name": "2026_locadora_mcqueen",
+  "name": "2026-2sem-itapevi-ds3n-crud-locadora-com-banco",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,20 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vagnerddecamargo-cloud/2026_Locadora_Mcqueen.git"
+    "url": "git+https://github.com/Joao-Meyer/2026-2sem-itapevi-ds3n-crud-locadora-com-banco.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/vagnerddecamargo-cloud/2026_Locadora_Mcqueen/issues"
+    "url": "https://github.com/Joao-Meyer/2026-2sem-itapevi-ds3n-crud-locadora-com-banco/issues"
   },
-  "homepage": "https://github.com/vagnerddecamargo-cloud/2026_Locadora_Mcqueen#readme",
+  "homepage": "https://github.com/Joao-Meyer/2026-2sem-itapevi-ds3n-crud-locadora-com-banco#readme",
   "dependencies": {
     "express": "5.2.1",
-    "i": "^0.3.7",
-    "knex": "3.3.0",
+    "knex": "^3.3.0",
     "sqlite3": "6.0.1"
   },
   "devDependencies": {
