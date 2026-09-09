@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Joao-Meyer/2026-2sem-itapevi-ds3n-crud-locadora-com-banco#readme",
   "dependencies": {
     "express": "5.2.1",
-    "knex": "^3.3.0",
+    "knex": "3.3.0",
     "sqlite3": "6.0.1"
   },
   "devDependencies": {
