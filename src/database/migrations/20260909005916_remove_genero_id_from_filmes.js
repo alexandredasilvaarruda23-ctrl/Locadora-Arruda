@@ -17,3 +17,7 @@ exports.down = function(knex) {
     table.integer("genero_id")
   })
 };
+
+exports.confg = {
+  transaction: false
+}
